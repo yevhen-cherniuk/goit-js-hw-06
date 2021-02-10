@@ -8,10 +8,10 @@
 function calculateTotalPrice(orderedItems) {
   let totalPrice = 0;
   // Пиши код ниже этой строки
-orderedItems.forEach(function(element) {
-    totalPrice += element;
-  
-})
+  orderedItems.forEach(function(element) {
+      totalPrice += element;
+    
+  })
   
   // Пиши код выше этой строки
   return totalPrice;
